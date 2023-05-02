@@ -4,11 +4,12 @@ body {
     background-color: rgb(24, 24, 24);
 }
 img {
-    box-shadow:0 0 10px #000000;
+    box-shadow:0 0 20px #000000;
     width: 200px;
     margin: auto;
     margin-bottom: 10%;
     border-radius: 50%;
+    transition: 1s;
     
 }
 .profile {
@@ -18,6 +19,7 @@ img {
     margin: 10% auto;
   
 }
+
 button {
     box-shadow:0 0 5px #0084ff;
     color: aqua;
@@ -30,36 +32,47 @@ button {
     font-size: 20px;
     width: 600px;
     transition: 0.5s;
+    cursor:pointer;
+    
+    
+    
+
+
+
+}
+img:hover {
+    box-shadow:0 0 10px #0084ff;
+    transition: 0.5s;
 
 
 }
 button:hover {
     box-shadow:0 0 4px rgb(238, 255, 0);
     background-color: rgb(7, 7, 7);
-    margin-block: 20px;
     transition: 0.5s;
+    padding-left: 40px;
 
 }
 .Light {
-    box-shadow:0 0 1000px #ff0000;
+    box-shadow:0 0 1000px #000000;
     background-color: #ff0000;
     position: fixed;
     left: auto;
     top: -0100px;
     height: 100px;
     width: 100%;
-    animation: color 10s ease-in-out infinite alternate;
+    animation: color 1s ease-in-out infinite alternate;
 }
-@keyframes color {
-    from {
-      box-shadow: 0 0 100px #ff00aa;
+/*@keyframes color { 
+      box-shadow: 0 0 500px #ff0000;
     }
     to {
-      box-shadow:0 0 1000px #ff008c;
+      box-shadow:0 0 1000px #1a1a1a;
     }
-}
+} 
+*/
 .white {
-    box-shadow: 0 0 1000px #ff008c;
+    box-shadow: 0 0 1000px #000000;
     background-color: #ff008c;
     position: fixed;
     top: 100%;
@@ -82,10 +95,28 @@ h1 {
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
     position: fixed;
-    width: 100%;
+    width: 1000%;
     height: 100%;
     left: 0%;
     top: 092%;
     margin-left: 2%;
+    background-color: #0e0e0e;
+    margin-left: -1px;
+    padding-left: 50px;
+    border: none;
+
 
 }
+.nem a {
+    font-family: 'Kanit', sans-serif;
+    color: aqua;
+    position: fixed;
+    top: 0;
+    right: 100px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .nem a:hover {
+    transition: 0.5s;
+    color: #fff;
+  }
