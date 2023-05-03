@@ -115,6 +115,7 @@ h1 {
     right: 100px;
     text-decoration: none;
     transition: 0.5s;
+    z-index: 1;
   }
   .nem a:hover {
     transition: 0.5s;
